@@ -39,9 +39,9 @@ export default function Component() {
         <section className="text-center py-8">
             <h1 className="text-4xl md:text-8xl font-bold">Ignacio Aristegui</h1>
             <p className="text-gray-400 mt-3">
-              Software developer and Digital Content Creator from Paraná, Argentina.
+              Software and fullstack developer student from Paraná, Argentina.
               <br />
-              Specializing in unique web application development with next, astro and Django.
+              Specializing in unique web application development with Next.js, Python and Django.
             </p>
             <div className="flex justify-center space-x-4 mt-4">
               <LinkedinIcon className="text-gray-400 hover:text-gray-300" />
@@ -56,90 +56,78 @@ export default function Component() {
     </h2>
 
     <div class="grid gap-6 lg:grid-cols-2">
-      <div
-        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
-        data-te-ripple-init data-te-ripple-color="dark">
-        <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/351633281/original/6b1265dc5a87983e47838ce3aa62a428265ef249/develop-a-desktop-app-in-python-using-tkinter-pyqt-kivy.jpg"
-          class="w-full align-middle transition duration-300 ease-linear" />
-        <a href="#!">
-          <div
-            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
-            <div class="flex h-full items-end justify-start">
-              <h5 class="m-6 text-lg font-bold text-white">
-                Desktop Software with Tkinter
-              </h5>
-            </div>
-          </div>
-          <div>
-            <div
-              class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
-            </div>
-          </div>
-        </a>
+    <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+      className="w-full align-middle transition duration-300 ease-linear" />
+    <a href="#!">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+        <div className="flex h-full items-end justify-start">
+          <h5 className="m-6 text-lg font-bold text-white">
+            Genius Loci
+          </h5>
+        </div>
       </div>
+      <div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
+        </div>
+      </div>
+    </a>
+  </div>
 
-      <div
-        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
-        data-te-ripple-init data-te-ripple-color="dark">
-        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
-          class="w-full align-middle transition duration-300 ease-linear" />
-        <a href="#!">
-          <div
-            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
-            <div class="flex h-full items-end justify-start">
-              <h5 class="m-6 text-lg font-bold text-white">Genius Loci</h5>
-            </div>
-          </div>
-          <div>
-            <div
-              class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
-            </div>
-          </div>
-        </a>
+      <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+      className="w-full align-middle transition duration-300 ease-linear" />
+    <a href="#!">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+        <div className="flex h-full items-end justify-start">
+          <h5 className="m-6 text-lg font-bold text-white">
+            Genius Loci
+          </h5>
+        </div>
       </div>
-
-      <div
-        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
-        data-te-ripple-init data-te-ripple-color="dark">
-        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/045.jpg"
-          class="w-full align-middle transition duration-300 ease-linear" />
-        <a href="#!">
-          <div
-            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
-            <div class="flex h-full items-end justify-start">
-              <h5 class="m-6 text-lg font-bold text-white">Big Apple</h5>
-            </div>
-          </div>
-          <div>
-            <div
-              class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
-            </div>
-          </div>
-        </a>
+      <div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
+        </div>
       </div>
+    </a>
+  </div>
+  
+      <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+      className="w-full align-middle transition duration-300 ease-linear" />
+    <a href="#!">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+        <div className="flex h-full items-end justify-start">
+          <h5 className="m-6 text-lg font-bold text-white">
+            Genius Loci
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
+        </div>
+      </div>
+    </a>
+  </div>
 
       
-      <div
-        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
-        data-te-ripple-init data-te-ripple-color="dark">
-        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/049.jpg"
-          class="w-full align-middle transition duration-300 ease-linear" />
-        <a href="#!">
-          <div
-            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
-            <div class="flex h-full items-end justify-start">
-              <h5 class="m-6 text-lg font-bold text-white">
-                Sky is the limit
-              </h5>
-            </div>
-          </div>
-          <div>
-            <div
-              class="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
-            </div>
-          </div>
-        </a>
+  <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+      className="w-full align-middle transition duration-300 ease-linear" />
+    <a href="#!">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+        <div className="flex h-full items-end justify-start">
+          <h5 className="m-6 text-lg font-bold text-white">
+            Genius Loci
+          </h5>
+        </div>
       </div>
+      <div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
+        </div>
+      </div>
+    </a>
+  </div>
     </div>
     <section className="mb-32">
 
