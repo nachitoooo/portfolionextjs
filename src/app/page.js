@@ -5,7 +5,7 @@
  */
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
-
+import { ContactForm } from "@/components/component/ContactForm";
 export default function Component() {
   return (
     <div className="bg-black text-white p-8">
@@ -141,10 +141,12 @@ export default function Component() {
         </a>
       </div>
     </div>
+    <section className="mb-32">
+
   </section>
-  <footer>
-    
-  </footer>
+
+  <ContactForm />
+  </section>
 </div>
 
         </main>
@@ -217,3 +219,4 @@ function LinkedinIcon(props) {
     </svg>
   )
 }
+
