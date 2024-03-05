@@ -19,7 +19,7 @@ const TechnologiesCarousel = () => {
   const duration = technologies.length * 2;
 
   return (
-    <div className="overflow-hidden bg-black pb-3" style={{ paddingBottom: '150px' }}>
+    <div className="overflow-hidden bg-black pb-3" style={{ paddingBottom: '60px' }}>
       <div className={`flex animate-scroll linear infinite w-max duration-${duration}s`}>
         {technologies.map((tech, index) => (
           <div key={index} className="mr-4">
