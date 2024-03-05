@@ -5,6 +5,7 @@ import { ContactForm } from "@/components/component/ContactForm";
 import TechnologiesCarousel from "@/components/component/TechnologiesCarousel";
 import  WorkExperienceItem  from "@/components/component/experience";
 import WorkExperienceItem2 from "@/components/component/experience2";
+import TypingEffect from "@/components/component/typingEffect";
 
 export default function Component() {
   return (
@@ -133,7 +134,7 @@ export default function Component() {
 
   </section>
 
-  <h3 className="text-4xl font-bold mb-6 text-center">Technologies</h3>
+  <TypingEffect/>
 
   <TechnologiesCarousel>
     
