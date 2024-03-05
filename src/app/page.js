@@ -3,6 +3,7 @@ import { AvatarImage, Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
 import { ContactForm } from "@/components/component/ContactForm";
 import TechnologiesCarousel from "@/components/component/TechnologiesCarousel";
+import WorkExperienceItem from "@/components/component/experience";
 export default function Component() {
   return (
     <div className="bg-black text-white p-8">
@@ -13,7 +14,7 @@ export default function Component() {
               <AvatarImage alt="Profile picture" src="/cv2.png" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
             </Avatar>
             <span className="bg-green-500 rounded-full px-3 py-1 text-xs font-semibold text-white">
-              Open to work
+              open to work
             </span>
           </div>
           
@@ -129,14 +130,22 @@ export default function Component() {
     <section className="mb-32">
 
   </section>
-  <ContactForm />
 
-  <h3 className="text-4xl font-bold mb-6 text-center">technologies</h3>
+  <h3 className="text-6xl font-bold mb-6 text-center">Technologies</h3>
 
   <TechnologiesCarousel>
     
   </TechnologiesCarousel>
+  <h3 className="text-4xl font-bold mb-6 text-center">laboral experience</h3>
+
+  <WorkExperienceItem>
+
+  </WorkExperienceItem>
   
+
+
+  <ContactForm />
+
   </section>
 
   
