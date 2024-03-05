@@ -99,7 +99,10 @@ export function ContactForm() {
             send message
           </button>
         </form>
+
       </div>
+      
+
     );
   }
   

@@ -2,8 +2,7 @@
 import { AvatarImage, Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
 import { ContactForm } from "@/components/component/ContactForm";
-import SlidingIcons from "@/components/component/sliding";
-
+import TechnologiesCarousel from "@/components/component/TechnologiesCarousel";
 export default function Component() {
   return (
     <div className="bg-black text-white p-8">
@@ -47,7 +46,7 @@ export default function Component() {
               <InstagramIcon className="text-gray-400 hover:text-gray-300" />
             </div>
           </section>
-          <div class="container my-24 mx-auto md:px-6">
+          <div className="container my-24 mx-auto md:px-6">
   <section class="mb-32">
     <h2 class="mb-12 text-center text-3xl font-bold">
       My latest projects
@@ -130,10 +129,14 @@ export default function Component() {
     <section className="mb-32">
 
   </section>
-
   <ContactForm />
-  <SlidingIcons />
 
+  <h3 className="text-4xl font-bold mb-6 text-center">technologies</h3>
+
+  <TechnologiesCarousel>
+    
+  </TechnologiesCarousel>
+  
   </section>
 
   
