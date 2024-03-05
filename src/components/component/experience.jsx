@@ -1,18 +1,19 @@
 import React from 'react';
-import { FaReact, FaPython } from 'react-icons/fa';
+import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 const WorkExperienceItem = () => {
   return (
     <div className="relative mx-4 md:mx-12 pb-8 md:pb-12 grid before:absolute before:left-[-25px] before:block before:h-full before:border-l-2 before:border-gray-200 dark:before:border-gray-800 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4 md:before:left-[-37px]">
       <div className="relative pb-8 md:pb-12 md:col-span-2">
         <div className="sticky top-4 md:top-28">
-         
-          <h3 className="text-lg md:text-xl font-bold text-gray-700 dark:text-gray-200">Charitative Project</h3>
-          <time className="text-xs md:text-sm text-gray-700 dark:text-gray-300">12/23 - 3/24</time>
-          <p className="text-sm text-gray-600 mt-2 dark:text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac ultrices libero.</p>
+          <h3 className="text-lg md:text-xl font-bold text-gray-700 dark:text-gray-200">Charitative project</h3>
+          <time className="text-xs md:text-sm text-gray-700 dark:text-gray-300">5/23 - 6/23</time>
+          <p className="text-sm text-gray-600 mt-2 dark:text-gray-100">I developed a charitable project so that people who visit the website have the possibility of donating to a student house, thus being able to raise funds to improve the infrastructure problems of the house.</p>
           <div className="flex gap-2 mt-2">
-            <FaReact className="text-blue-500" />
-            <FaPython className="text-green-500" />
+            <FaHtml5 className="text-orange-600" size={50} />
+            <FaCss3Alt className="text-blue-600" size={50} />
+            <SiJavascript className='text-yellow-500' size={50} />
           </div>
         </div>
       </div>
@@ -29,3 +30,6 @@ const WorkExperienceItem = () => {
 };
 
 export default WorkExperienceItem;
+
+
+

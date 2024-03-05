@@ -3,7 +3,9 @@ import { AvatarImage, Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
 import { ContactForm } from "@/components/component/ContactForm";
 import TechnologiesCarousel from "@/components/component/TechnologiesCarousel";
-import WorkExperienceItem from "@/components/component/experience";
+import  WorkExperienceItem  from "@/components/component/experience";
+import WorkExperienceItem2 from "@/components/component/experience2";
+
 export default function Component() {
   return (
     <div className="bg-black text-white p-8">
@@ -131,7 +133,7 @@ export default function Component() {
 
   </section>
 
-  <h3 className="text-6xl font-bold mb-6 text-center">Technologies</h3>
+  <h3 className="text-4xl font-bold mb-6 text-center">Technologies</h3>
 
   <TechnologiesCarousel>
     
@@ -141,8 +143,8 @@ export default function Component() {
   <WorkExperienceItem>
 
   </WorkExperienceItem>
-  
 
+  <WorkExperienceItem2 />
 
   <ContactForm />
 
