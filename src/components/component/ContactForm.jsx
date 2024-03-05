@@ -45,16 +45,17 @@ export function ContactForm() {
   
     return (
       <div className="bg-black text-white p-8 mt-12">
-        <h3 className="text-2xl font-bold mb-6">Contact</h3>
+        <h3 className="text-4xl font-bold mb-6 text-center">Contact</h3>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium text-gray-400">
-              Name
+              name
             </label>
             <input
               type="text"
               id="name"
               name="name"
+              placeholder='your name'
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="mt-1 p-2 w-full border border-gray-300 rounded focus:outline-none focus:border-blue-500 bg-gray-800 text-white"
@@ -63,12 +64,13 @@ export function ContactForm() {
           </div>
           <div className="mb-4">
             <label htmlFor="email" className="block text-sm font-medium text-gray-400">
-              E-mail
+              mail
             </label>
             <input
               type="email"
               id="email"
               name="email"
+              placeholder='email@example.com'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="mt-1 p-2 w-full border border-gray-300 rounded focus:outline-none focus:border-blue-500 bg-gray-800 text-white"
@@ -82,6 +84,7 @@ export function ContactForm() {
             <textarea
               id="message"
               name="message"
+              placeholder='¡Hello, Ignacio! I want to send you a message.'
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               rows="4"
@@ -91,9 +94,9 @@ export function ContactForm() {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800 transition duration-1000"
           >
-            Send Message
+            send message
           </button>
         </form>
       </div>

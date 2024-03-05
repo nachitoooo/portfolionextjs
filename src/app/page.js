@@ -1,11 +1,9 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/UX3TKGOX0MP
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
+
+import { AvatarImage, Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
 import { ContactForm } from "@/components/component/ContactForm";
+import SlidingIcons from "@/components/component/sliding";
+
 export default function Component() {
   return (
     <div className="bg-black text-white p-8">
@@ -134,14 +132,19 @@ export default function Component() {
   </section>
 
   <ContactForm />
+  <SlidingIcons />
+
   </section>
+
+  
+  
 </div>
 
-        </main>
-        
+        </main>       
       </div>
+
     </div>
-  )
+  ) 
   
 }
 
@@ -163,7 +166,6 @@ function GithubIcon(props) {
     </svg>
   );
 }
-
 
 function InstagramIcon(props) {
   return (
@@ -207,4 +209,3 @@ function LinkedinIcon(props) {
     </svg>
   )
 }
-
