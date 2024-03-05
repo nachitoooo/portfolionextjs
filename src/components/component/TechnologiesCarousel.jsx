@@ -38,7 +38,7 @@ const TechnologiesCarousel = () => {
         }
 
         .animate-scroll {
-          animation: scrollAnimation ${duration}s linear infinite; /* Utilizamos la duración calculada */
+          animation: scrollAnimation ${duration}s linear infinite; 
         }
       `}</style>
     </div>

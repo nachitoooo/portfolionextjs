@@ -49,8 +49,8 @@ export default function Component() {
           </section>
           <div className="container my-24 mx-auto md:px-6">
   <section class="mb-32">
-    <h2 class="mb-12 text-center text-3xl font-bold">
-      My latest projects
+    <h2 class="mb-12 text-center text-2xl font-bold">
+       my latest projects
     </h2>
 
     <div class="grid gap-6 lg:grid-cols-2">
@@ -136,7 +136,7 @@ export default function Component() {
   <TechnologiesCarousel>
     
   </TechnologiesCarousel>
-  <h3 className="text-4xl font-bold mb-6 text-center">laboral experience</h3>
+  <h3 className="text-4xl font-bold mb-6 text-center">Laboral Experience</h3>
 
   <WorkExperienceItem>
 
