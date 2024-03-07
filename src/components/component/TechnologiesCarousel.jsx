@@ -5,15 +5,15 @@ import { DiDjango, DiVisualstudio, DiGit, DiGithubAlt } from "react-icons/di";
 
 const TechnologiesCarousel = () => {
   const technologies = [
-    <FaHtml5 key="html5" size={40} />,
-    <FaCss3Alt key="css3" size={40} />,
-    <FaJsSquare key="javascript" size={40} />,
-    <FaReact key="react" size={40} />,
-    <DiGit key="git" size={40} />,
-    <FaPython key="python" size={40} />,
-    <DiDjango key="django" size={40} />,
-    <DiVisualstudio key="VisualStudio" size={40} />,
-    <DiGithubAlt key="GithubAlt" size={40} />,
+    <FaHtml5 className='text-orange-600' key="html5" size={50} />,
+    <FaCss3Alt className='text-blue-600' key="css3"  size={50} />,
+    <FaJsSquare className='text-yellow-600' key="javascript" size={50} />,
+    <FaReact className='text-sky-600' key="react" size={50} />,
+    <DiGit className='text-orange-600' key="git" size={50} />,
+    <FaPython className='text-sky-800' key="python" size={50} />,
+    <DiDjango className='text-green-700' key="django" size={50} />,
+    <DiVisualstudio className='text-sky-600' key="VisualStudio" size={50} />,
+    <DiGithubAlt className='text-gray-400' key="GithubAlt" size={50} />,
   ];
 
   const duration = technologies.length * 2;

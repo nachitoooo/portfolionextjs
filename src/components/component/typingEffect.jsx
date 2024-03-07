@@ -15,7 +15,7 @@ export default function TypingEffect() {
 
   return (
     <div>
-      <LazyLoad height={200} offset={100}>
+      <LazyLoad height={100} offset={100}>
         <h3 className="text-4xl font-bold mb-6 text-center">
           <Typewriter
             onInit={startTypewriter}
