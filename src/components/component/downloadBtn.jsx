@@ -1,8 +1,10 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import { FaDownload } from 'react-icons/fa';
 
 const DownloadBtn = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   const handleDownload = async () => {
     try {
       const pdfUrl = 'cv/cvingles.pdf'; // Asegúrate de tener la ruta correcta al archivo PDF
@@ -23,9 +25,12 @@ const DownloadBtn = () => {
   return (
     <button
       onClick={handleDownload}
-      className="flex items-center bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className={`flex items-center bg-green-500 text-white font-bold px-3 py-1 rounded-full transition-transform duration-1000 ease-in-out transform ${isHovered ? 'scale-110' : ''}`}
     >
-      <FaDownload className="mr-2" /> {/* Ícono de descarga */}
+      <FaDownload className={`mr-2 ${isHovered ? 'animate-bounce' : ''}`} />
+      {isHovered && <span className="ml-1 bg-green-500 rounded-full px-3 py-1 text-xs font-semibold text-white">CV</span>}
     </button>
   );
 };

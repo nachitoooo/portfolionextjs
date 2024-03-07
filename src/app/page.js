@@ -5,6 +5,7 @@ import { ContactForm } from "@/components/component/ContactForm";
 import TechnologiesCarousel from "@/components/component/TechnologiesCarousel";
 import  WorkExperienceItem  from "@/components/component/experience";
 import WorkExperienceItem2 from "@/components/component/experience2";
+import WorkExperienceItem3 from "@/components/component/experience3";
 import TypingEffect from "@/components/component/typingEffect";
 import { IoBagOutline } from "react-icons/io5";
 import DownloadBtn from "@/components/component/downloadBtn";
@@ -133,15 +134,14 @@ export default function Component() {
   </a>
 </div>
   
-      <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+<div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="/soon.jpg"
       className="w-full align-middle transition duration-300 ease-linear" />
     <a href="#!">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-          Coming soon...
-
+          {/* Coming soon... */}
           </h5>
         </div>
       </div>
@@ -185,11 +185,9 @@ export default function Component() {
 </h3>
         
 
-  <WorkExperienceItem>
-
-  </WorkExperienceItem>
-
+  <WorkExperienceItem />
   <WorkExperienceItem2 />
+  <WorkExperienceItem3 />
   <section id="contact">
   <ContactForm  />
   </section>

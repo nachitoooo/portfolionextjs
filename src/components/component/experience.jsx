@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5, FaBootstrap } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
 const WorkExperienceItem = () => {
@@ -14,6 +14,8 @@ const WorkExperienceItem = () => {
             <FaHtml5 className="text-orange-600" size={50} />
             <FaCss3Alt className="text-blue-600" size={50} />
             <SiJavascript className='text-yellow-500' size={50} />
+            <FaBootstrap className="text-purple-700" size={50}/>
+
           </div>
         </div>
       </div>
