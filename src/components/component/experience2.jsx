@@ -1,19 +1,26 @@
 import React from "react";
 import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { DiDjango } from "react-icons/di";
+import { FaPython } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 
 const WorkExperienceItem2 = () => {
     return (
       <div className="relative mx-4 md:mx-12 pb-8 md:pb-12 grid before:absolute before:left-[-25px] before:block before:h-full before:border-l-2 before:border-gray-200 dark:before:border-gray-800 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4 md:before:left-[-37px]">
         <div className="relative pb-8 md:pb-12 md:col-span-2">
           <div className="sticky top-4 md:top-28">
-            <h3 className="text-lg md:text-xl font-bold text-gray-700 dark:text-gray-200">Charitative project</h3>
-            <time className="text-xs md:text-sm text-gray-700 dark:text-gray-300">5/23 - 6/23</time>
-            <p className="text-sm text-gray-600 mt-2 dark:text-gray-100">I developed a  project so that people who visit the website have the possibility of donating to a student house, thus being able to raise funds to improve the infrastructure problems of the house.</p>
+            <h3 className="text-lg md:text-xl font-bold text-gray-700 dark:text-gray-200">NEW GYM </h3>
+            <time className="text-xs md:text-sm text-gray-700 dark:text-gray-300">9/23 - 3/24</time>
+            <p className="text-sm text-gray-600 mt-2 dark:text-gray-100">I developed a system for a business that allowed managing customer data to validate the membership according to the days the user had paid, in addition to a CRUD system</p>
             <div className="flex gap-2 mt-2">
               <FaHtml5 className="text-orange-600" size={50} />
               <FaCss3Alt className="text-blue-600" size={50} />
               <SiJavascript className='text-yellow-500' size={50} />
+              <DiDjango className='text-green-900' size={50}/>
+              <FaPython className='text-blue-700' size={50}/>
+              <TbApi className="text-red-600" size={50}/>
+
             </div>
           </div>
         </div>

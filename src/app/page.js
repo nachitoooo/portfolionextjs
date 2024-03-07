@@ -39,6 +39,7 @@ export default function Component() {
             <Link className="hover:text-gray-300" href="#contact">
               contact
             </Link>
+
           </nav>
         </header>
         <main>
@@ -79,15 +80,14 @@ export default function Component() {
       </div>
     </a>
   </div>
-
       <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+    <img src="/uriel.jpg"
       className="w-full align-middle transition duration-300 ease-linear" />
-    <a href="#!">
+    <a href="https://urielpires.netlify.app/" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            Genius Loci
+            Online coaching
           </h5>
         </div>
       </div>
@@ -98,13 +98,13 @@ export default function Component() {
     </a>
   </div>
   <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+    <img src="/casalacosta.jpg"
       className="w-full align-middle transition duration-300 ease-linear" />
-    <a href="#!">
+    <a href="https://casadelacosta.netlify.app/" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            Genius Loci
+            Charitative project
           </h5>
         </div>
       </div>
@@ -114,23 +114,24 @@ export default function Component() {
       </div>
     </a>
   </div>
-  <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
-      className="w-full align-middle transition duration-300 ease-linear" />
-    <a href="#!">
-      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
-        <div className="flex h-full items-end justify-start">
-          <h5 className="m-6 text-lg font-bold text-white">
-            Coming soon...
-          </h5>
-        </div>
+  <div className="zoom relative overflow-hidden rounded-lg bg-cover shadow-lg dark:shadow-black/20 transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+  <img
+    src="/drfGym.jpg"
+    className="w-full h-full object-cover align-middle transition duration-300 ease-linear"
+  />
+  <a href="https://github.com/nachitoooo/sistemagimnasio/" target="_BLANK">
+    <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+      <div className="flex h-full items-end justify-start">
+        <h5 className="m-6 text-lg font-bold text-white">
+          Django Rest Framework System for gym
+        </h5>
       </div>
-      <div>
-        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
-        </div>
-      </div>
-    </a>
-  </div>
+    </div>
+    <div>
+      <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]"></div>
+    </div>
+  </a>
+</div>
   
       <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
     <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
