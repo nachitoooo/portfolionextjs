@@ -23,7 +23,6 @@ export function ContactForm() {
         .then((response) => {
           console.log('Correo electrónico enviado con éxito:', response);
   
-          // Muestra la alerta de éxito
           Swal.fire({
             icon: 'success',
             title: 'Email sent successfully',
@@ -31,9 +30,6 @@ export function ContactForm() {
             confirmButtonColor: '#28a745', 
           });
   
-         
-  
-          // Limpia los campos del formulario después de enviar el correo
           setName('');
           setEmail('');
           setMessage('');
@@ -45,7 +41,7 @@ export function ContactForm() {
   
     return (
       <div className="bg-black text-white p-8 mt-12">
-        <h3 className="text-4xl font-bold mb-6 text-center">Contact</h3>
+        <h3 className="text-4xl font-bold mb-6 text-center">Contact me</h3>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium text-gray-400">

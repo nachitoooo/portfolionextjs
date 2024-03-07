@@ -7,11 +7,12 @@ import  WorkExperienceItem  from "@/components/component/experience";
 import WorkExperienceItem2 from "@/components/component/experience2";
 import TypingEffect from "@/components/component/typingEffect";
 import { IoBagOutline } from "react-icons/io5";
-
- 
+import DownloadBtn from "@/components/component/downloadBtn";
+import { Download } from "lucide-react";
 
 export default function Component() {
   return (
+    
     <div className="bg-black text-white p-8">
       <div className="max-w-4xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center py-4">
@@ -22,6 +23,7 @@ export default function Component() {
             <span className="bg-green-500 rounded-full px-3 py-1 text-xs font-semibold text-white">
               open to work
             </span>
+            <DownloadBtn></DownloadBtn>
           </div>
           
           <nav className="flex flex-wrap space-x-4">
@@ -59,15 +61,15 @@ export default function Component() {
        my latest projects
     </h2>
 
-    <div class="grid gap-6 lg:grid-cols-2">
+    <div class="grid gap-6 lg:grid-cols-3">
     <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+    <img src="/tkinter.jpg"
       className="w-full align-middle transition duration-300 ease-linear" />
-    <a href="#!">
+    <a href="https://github.com/nachitoooo/SoftwareCuota" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            Genius Loci
+           Tkinter software
           </h5>
         </div>
       </div>
@@ -86,6 +88,40 @@ export default function Component() {
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
             Genius Loci
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
+        </div>
+      </div>
+    </a>
+  </div>
+  <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+      className="w-full align-middle transition duration-300 ease-linear" />
+    <a href="#!">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+        <div className="flex h-full items-end justify-start">
+          <h5 className="m-6 text-lg font-bold text-white">
+            Genius Loci
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]">
+        </div>
+      </div>
+    </a>
+  </div>
+  <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+      className="w-full align-middle transition duration-300 ease-linear" />
+    <a href="#!">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+        <div className="flex h-full items-end justify-start">
+          <h5 className="m-6 text-lg font-bold text-white">
+            Coming soon...
           </h5>
         </div>
       </div>
@@ -103,7 +139,8 @@ export default function Component() {
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            Genius Loci
+          Coming soon...
+
           </h5>
         </div>
       </div>
@@ -116,13 +153,13 @@ export default function Component() {
 
       
   <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
+    <img src="/soon.jpg"
       className="w-full align-middle transition duration-300 ease-linear" />
     <a href="#!">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            Genius Loci
+          {/* Coming soon... */}
           </h5>
         </div>
       </div>
