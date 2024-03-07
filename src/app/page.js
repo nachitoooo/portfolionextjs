@@ -18,8 +18,8 @@ export default function Component() {
       <div className="max-w-4xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center py-4">
           <div className="flex items-center space-x-4 mb-4 md:mb-0">
-            <Avatar style={{ width: '120px', height: '120px' }}>
-              <AvatarImage alt="Profile picture" src="/cv2.png" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Avatar style={{ width: '150px', height: '150px' }}>
+              <AvatarImage alt="Profile picture" src="/cv2.png" style={{ width: '100%', height: '100%', objectFit: 'cover'}} />
             </Avatar>
             <span className="bg-green-500 rounded-full px-3 py-1 text-xs font-semibold text-white">
               open to work
@@ -63,8 +63,8 @@ export default function Component() {
        my latest projects
     </h2>
 
-    <div class="grid gap-6 lg:grid-cols-3">
-    <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+    <div class="grid gap-6 lg:grid-cols-2">
+    <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-550 ease-in-out hover:scale-105 hover:shadow-xl">
     <img src="/tkinter.jpg"
       className="w-full align-middle transition duration-300 ease-linear" />
     <a href="https://github.com/nachitoooo/SoftwareCuota" target="_BLANK">
