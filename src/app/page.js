@@ -28,10 +28,10 @@ export default function Component() {
           </div>
           
           <nav className="flex flex-wrap space-x-4">
-            <Link className="hover:text-gray-300" href="#">
+            <Link className="hover:text-gray-300" href="#laboralExperience">
               experience
             </Link>
-            <Link className="hover:text-gray-300" href="#">
+            <Link className="hover:text-gray-300" href="#projects">
               projects
             </Link>
             <Link className="hover:text-gray-300" href="#">
@@ -58,9 +58,9 @@ export default function Component() {
             </div>
           </section>
           <div className="container my-24 mx-auto md:px-6">
-  <section class="mb-32">
+  <section class="mb-32" id="projects">
     <h2 class="mb-12 text-center text-2xl font-bold">
-       my latest projects
+      My Projects
     </h2>
 
     <div class="grid gap-6 lg:grid-cols-2">
@@ -72,7 +72,7 @@ export default function Component() {
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
            Tkinter software
-          </h5>
+          </h5>n
         </div>
       </div>
       <div>
@@ -135,13 +135,12 @@ export default function Component() {
 </div>
   
 <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="/soon.jpg"
+    <img src="/tasklistapp.jpeg"
       className="w-full align-middle transition duration-300 ease-linear" />
-    <a href="#!">
+    <a href="https://github.com/nachitoooo/django-nextjs" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
-          <h5 className="m-6 text-lg font-bold text-white">
-          {/* Coming soon... */}
+          <h5 className="m-6 text-lg font-bold text-white">Task List App with Django and Next.js
           </h5>
         </div>
       </div>
@@ -174,14 +173,18 @@ export default function Component() {
     <section className="mb-32">
 
   </section>
-
+  <section id="laboralExperience">
   <TypingEffect/>
 
   <TechnologiesCarousel>
-    
   </TechnologiesCarousel>
+  </section>
+
   <h3 className="text-3xl font-bold mb-6 text-center">
+    
   <IoBagOutline className="inline-block mr-3 text-3xl" /> Laboral experience
+  
+  
 </h3>
         
 
