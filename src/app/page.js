@@ -9,7 +9,7 @@ import WorkExperienceItem3 from "@/components/component/experience3";
 import TypingEffect from "@/components/component/typingEffect";
 import { IoBagOutline } from "react-icons/io5";
 import DownloadBtn from "@/components/component/downloadBtn";
-import { Download } from "lucide-react";
+
 
 export default function Component() {
   return (
@@ -72,7 +72,7 @@ export default function Component() {
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
            Tkinter software
-          </h5>n
+          </h5>
         </div>
       </div>
       <div>
@@ -140,7 +140,7 @@ export default function Component() {
     <a href="https://github.com/nachitoooo/django-nextjs" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
-          <h5 className="m-6 text-lg font-bold text-white">Task List App with Django and Next.js
+          <h5 className="m-6 text-lg font-bold text-white">Task List App with Django rest framework and Next.js
           </h5>
         </div>
       </div>
@@ -153,13 +153,13 @@ export default function Component() {
 
       
   <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="/soon.jpg"
+    <img src="/atlantic.jpeg"
       className="w-full align-middle transition duration-300 ease-linear" />
-    <a href="#!">
+    <a href="https://atlanticsoftware-su5y.vercel.app/" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-          {/* Coming soon... */}
+            My software agency
           </h5>
         </div>
       </div>

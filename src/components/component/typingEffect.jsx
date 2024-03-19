@@ -5,13 +5,17 @@ import Typewriter from 'typewriter-effect';
 
 export default function TypingEffect() {
   const startTypewriter = (typewriter) => {
-    typewriter.typeString('Technologies')
+    typewriter.typeString('My stack')
       .callFunction(() => {
         console.log('String typed out!');
       })
       .pauseFor(2000)
       .start(startTypewriter);
+      <style>
+        font-family:
+      </style>
   };
+  
 
   return (
     <div>
