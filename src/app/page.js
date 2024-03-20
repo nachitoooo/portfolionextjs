@@ -159,7 +159,7 @@ export default function Component() {
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            My software agency
+            My software agency (Developing)
           </h5>
         </div>
       </div>
