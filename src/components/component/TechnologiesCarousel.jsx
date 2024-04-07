@@ -2,6 +2,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython } from 'react-icons/fa';
 import { DiDjango, DiVisualstudio, DiGit, DiGithubAlt } from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
 
 const TechnologiesCarousel = () => {
   const technologies = [
@@ -14,6 +15,7 @@ const TechnologiesCarousel = () => {
     <DiDjango className='text-green-700' key="django" size={50} />,
     <DiVisualstudio className='text-sky-600' key="VisualStudio" size={50} />,
     <DiGithubAlt className='text-gray-400' key="GithubAlt" size={50} />,
+    <SiTailwindcss className='text-sky-600' key="Tailwind" size={50} ></SiTailwindcss>
   ];
 
   const duration = technologies.length * 2;
