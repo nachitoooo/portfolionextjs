@@ -29,16 +29,16 @@ export default function Component() {
           
           <nav className="flex flex-wrap space-x-4">
             <Link className="hover:text-gray-300" href="#laboralExperience">
-              experience
+              Experience
             </Link>
             <Link className="hover:text-gray-300" href="#projects">
-              projects
+              Projects
             </Link>
             <Link className="hover:text-gray-300" href="#">
-              about me
+              About me
             </Link>
             <Link className="hover:text-gray-300" href="#contact">
-              contact
+              Contact
             </Link>
 
           </nav>
@@ -47,7 +47,7 @@ export default function Component() {
         <section className="text-center py-8">
             <h1 className="text-4xl md:text-8xl font-bold">Ignacio Aristegui</h1>
             <p className="text-gray-400 mt-3">
-              Software and fullstack developer student from Paraná, Argentina.
+              Software and fullstack developer student from Argentina.
               <br />
               Specializing in unique web application development with Next.js, Python and Django.
             </p>
@@ -71,7 +71,7 @@ export default function Component() {
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-           Tkinter software
+          Gym Management - Desktop App
           </h5>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function Component() {
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-lg font-bold text-white">
-            Charitative project
+          Charitable project for university students
           </h5>
         </div>
       </div>
@@ -135,12 +135,12 @@ export default function Component() {
 </div>
   
 <div className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-    <img src="/tasklistapp.jpeg"
+    <img src="/sustant.png"
       className="w-full align-middle transition duration-300 ease-linear" />
     <a href="https://github.com/nachitoooo/django-nextjs" target="_BLANK">
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
         <div className="flex h-full items-end justify-start">
-          <h5 className="m-6 text-lg font-bold text-white">Task List App with Django rest framework and Next.js
+          <h5 className="m-6 text-lg font-bold text-white">My clothing brand
           </h5>
         </div>
       </div>
